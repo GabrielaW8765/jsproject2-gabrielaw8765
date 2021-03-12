@@ -18,7 +18,7 @@ function userProm() {
       catVar.push("None".split(", "))
       }
   else{
-    catVar.push(data[i].whatBor_boroughs.split(", "));
+    catVar.push(data[i].whatBor_borough.split(", "));
   }
 }
 document.write("The CATS data in " + answer  + " have " + catVar + ": <br>");
